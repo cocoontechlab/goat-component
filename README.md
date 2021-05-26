@@ -1,3 +1,6 @@
+#Goat Component
+[![Node.js CI](https://github.com/cocoontechlab/goat-component/actions/workflows/publish.yml/badge.svg)](https://github.com/cocoontechlab/goat-component/actions/workflows/publish.yml)
+
 # TSDX React w/ Storybook User Guide
 
 Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.
