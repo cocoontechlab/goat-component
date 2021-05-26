@@ -1,4 +1,3 @@
-#Goat Component
 [![Node.js CI](https://github.com/cocoontechlab/goat-component/actions/workflows/publish.yml/badge.svg)](https://github.com/cocoontechlab/goat-component/actions/workflows/publish.yml)
 
 # TSDX React w/ Storybook User Guide
