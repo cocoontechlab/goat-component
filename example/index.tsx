@@ -6,7 +6,9 @@ import { Thing } from '../.';
 const App = () => {
   return (
     <div>
-      <Thing />
+      <Thing>
+        Hello helo
+      </Thing>
     </div>
   );
 };

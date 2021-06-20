@@ -1,5 +1,5 @@
 [![Logo](https://images.ctfassets.net/a31lh3kxbzxh/6LHmPXi6XsSUVAy5gyJIOP/722a19fd21536b651ff42cee5ef51cc1/goat-emoji.png?w=150&h=150&fit=thumb)](https://cocoontechlab.com)
-# Goat UI
+# Goat Componennt
 
 Goat-Ui is a simple and customizable component library to build faster and accessible React application. It is design to learn and implement componenent in a standared way. Developer are recomended to contribute in this project. 
 
@@ -8,10 +8,10 @@ Goat-Ui is a simple and customizable component library to build faster and acces
 
 ## Installation 
 
-Install Goat-Ui with npm or yarn
+Install Goat-Component with npm or yarn
 
 ```bash 
-  npm install goat-ui
+  npm install goat-component
   
   yarn add goat-ui
 ```
@@ -23,7 +23,7 @@ Check out the [documentation](https://goat-ui.cocoontechlab.com) site.
   
 ## Contributing
 
-Read the [contributing guide](https://github.com/cocoontechlab/goat-ui/contributing-guide.md) to learn more about the process and steps. 
+Read the [contributing guide](https://github.com/cocoontechlab/goat-component/contributing-guide.md) to learn more about the process and steps. 
 
 
 
