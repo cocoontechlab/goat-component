@@ -1,27 +1,31 @@
 import React, { FC, ButtonHTMLAttributes } from 'react';
-import styled from 'styled-components';
+import classNames from 'classnames';
 
-const StyledButton = styled.button.attrs(
-  ({ variant }: { variant: ButtonVariants }) => ({
-    className: `px-8 py-2 font-semibold ${variant === 'default' ? 'text-white' : 'text-red-700'
-      } transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-red-300 to-blue-300 hover:from-pink-400 hover:to-indigo-400`,
-  })
-) <{ variant: ButtonVariants }>``;
 
 type ButtonVariants = 'default' | 'warning';
+type Icons = JSX.Element | null;
+
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   text: string;
   variant?: ButtonVariants;
+  leftIcon?: Icons;
+  rightIcon?: Icons;
 }
 
 export const Button: FC<ButtonProps> = ({
   text,
   variant = 'default',
+  leftIcon = null,
+  rightIcon = null,
   ...rest
 }) => {
+  const wrappedClass = classNames(`px-8 py-2 font-semibold transition duration-500 ease-in-out transform rounded-lg flex items-center gap-1 shadow-xl bg-gradient-to-r from-red-300 to-blue-300 hover:from-pink-400 hover:to-indigo-400`)
   return (
-    <StyledButton variant={variant} {...rest}>
+    <button className={wrappedClass} {...rest}>
+      {leftIcon && leftIcon}
       {text}
-    </StyledButton>
+      {rightIcon && rightIcon}
+    </button>
   );
 };
+
