@@ -23,7 +23,7 @@ Check out the [documentation](https://goat-ui.cocoontechlab.com) site.
   
 ## Contributing
 
-Read the [contributing guide](https://github.com/cocoontechlab/goat-component/contributing-guide.md) to learn more about the process and steps. 
+Read the [contributing guide](https://github.com/cocoontechlab/goat-component/blob/main/contributing-guide.md) to learn more about the process and steps. 
 
 
 
