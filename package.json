@@ -25,9 +25,7 @@
     "semantic-release": "semantic-release --branches main"
   },
   "peerDependencies": {
-    "react": ">=16",
-    "styled-components": "^5.3.0",
-    "classnames": "^2.3.1"
+    "react": ">=16"
   },
   "husky": {
     "hooks": {
